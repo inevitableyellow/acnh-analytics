@@ -48,7 +48,7 @@ CREATE TABLE `personalities` (
 
 LOCK TABLES `personalities` WRITE;
 /*!40000 ALTER TABLE `personalities` DISABLE KEYS */;
-INSERT INTO `personalities` VALUES (1,'Big Sister','rude','gruff','fighting','03:00:00','09:30:00'),(2,'Cranky','bitter','deep','complaining','03:30:00','09:00:00'),(3,'Jock','energetic','loud','sports','00:30:00','06:30:00'),(4,'Lazy','relaxed','goofy','bugs','23:00:00','08:00:00'),(5,'Normal','sweet','neutral','daydreaming','00:00:00','06:00:00'),(6,'Peppy','excited','chipper','fame','01:30:00','07:00:00'),(7,'Smug','arrogant','sophisticated','gossip','02:00:00','07:00:00'),(8,'Snooty','polite','charming','cleaning','02:30:00','08:30:00'),(9,'Big Sister','rude','gruff','fighting','03:00:00','09:30:00'),(10,'Cranky','bitter','deep','complaining','03:30:00','09:00:00'),(11,'Jock','energetic','loud','sports','00:30:00','06:30:00'),(12,'Lazy','relaxed','goofy','bugs','23:00:00','08:00:00'),(13,'Normal','sweet','neutral','daydreaming','00:00:00','06:00:00'),(14,'Peppy','excited','chipper','fame','01:30:00','07:00:00'),(15,'Smug','arrogant','sophisticated','gossip','02:00:00','07:00:00'),(16,'Snooty','polite','charming','cleaning','02:30:00','08:30:00');
+INSERT INTO `personalities` VALUES (1,'Big Sister','rude','gruff','fighting','03:00:00','09:30:00'),(2,'Cranky','bitter','deep','complaining','03:30:00','09:00:00'),(3,'Jock','energetic','loud','sports','00:30:00','06:30:00'),(4,'Lazy','relaxed','goofy','bugs','23:00:00','08:00:00'),(5,'Normal','sweet','neutral','daydreaming','00:00:00','06:00:00'),(6,'Peppy','excited','chipper','fame','01:30:00','07:00:00'),(7,'Smug','arrogant','sophisticated','gossip','02:00:00','07:00:00'),(8,'Snooty','polite','charming','cleaning','02:30:00','08:30:00');
 /*!40000 ALTER TABLE `personalities` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -107,7 +107,7 @@ CREATE TABLE `seasons_events_types` (
 
 LOCK TABLES `seasons_events_types` WRITE;
 /*!40000 ALTER TABLE `seasons_events_types` DISABLE KEYS */;
-INSERT INTO `seasons_events_types` VALUES (1,'Basegame Event'),(2,'Special Event'),(3,'Nook Shopping Event'),(4,'Calender Season'),(5,'Zodiac Season');
+INSERT INTO `seasons_events_types` VALUES (1,'Basegame Event'),(2,'Special Event'),(3,'Nook Shopping Event'),(4,'Calendar Season'),(5,'Zodiac Season');
 /*!40000 ALTER TABLE `seasons_events_types` ENABLE KEYS */;
 UNLOCK TABLES;
 
