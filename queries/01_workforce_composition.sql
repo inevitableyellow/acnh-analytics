@@ -8,6 +8,7 @@
 -- makeup of the animal crossing community
 -- ========================================
 
+-- -------------------------------------------------------------------------------------------
 /*
 total headcount:
 baseline measurement and understanding of the size of the community,
@@ -17,6 +18,7 @@ development
 SELECT COUNT(*) AS total_headcount
 FROM villagers;
 
+-- -------------------------------------------------------------------------------------------
 /*
 species and gender distribution:
 informs which species are most and least common among villagers, as well
@@ -32,6 +34,7 @@ JOIN species s ON v.species_id = s.species_id
 GROUP BY s.name
 ORDER BY s.name;
 
+-- -------------------------------------------------------------------------------------------
 /*
 personality distribution:
 provides insight into the variation of personality types among villagers,
@@ -43,6 +46,7 @@ JOIN personalities p ON v.personality_id = p.personality_id
 GROUP BY p.personality
 ORDER BY headcount DESC;
 
+-- -------------------------------------------------------------------------------------------
 /*
 gender balance:
 given that personality types are unique to gender in this example,
